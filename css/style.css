@@ -2680,3 +2680,14 @@ overflow: hidden !important;
 [data-overlay-light="10"]:before {
     opacity: 1;
 }
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column-reverse;
+  }
+  #progress {
+    width: 200px;
+  }
+  
